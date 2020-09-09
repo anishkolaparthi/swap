@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    int a=20,b=10;
-    a=a+b;
-    b=a-b;
-    a=a-b;
+    int a=20,b=10;//initializing and giving values to the numbers
+    a=a+b;//now the value of a becomes 30
+    b=a-b;//value of b is 20
+    a=a-b;//value of a is 10
     printf("After swapping: a= %d,b=%d",a,b);
     return 0;
 }
